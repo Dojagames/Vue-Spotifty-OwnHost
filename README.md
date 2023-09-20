@@ -7,6 +7,7 @@ Spotify web player & playlist editor
 got to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard) and log in with your credentials
 
 Then click on Create App and Select a name
+
 set Website to "editor.jonx.dev"
 
 and Redirect Url to "editor.jonx.dev/callback"
