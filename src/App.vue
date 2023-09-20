@@ -117,6 +117,10 @@ export default {
       location.reload();
     },
 
+    openHelp(){
+      window.open("https://github.com/Dojagames/Vue-Spotifty-OwnHost/blob/main/README.md", '_blank');
+    },
+
 
     CallApi(method, url, body, instruction){
         const currentScope = this;
@@ -736,7 +740,7 @@ export default {
 <template>
   <spotify_auth @response="(a) => HandleAuthResponse(a)" ref="auth_child"/>
 
-
+  <button @click="openHelp()" style="position:absolute; right: 15px; bottom: 15px; background-color: transparent; border: 1px solid white; font-size: larger;" class="clickable" v-if="window === 'login'">need help loggin in?</button>
   <div id="loginWrapper" v-if="window === 'login'">
     <input type="text" v-model="id" placeholder="id">
     <input type="text" placeholder="secret" v-model="secret">
