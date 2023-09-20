@@ -8,6 +8,7 @@ got to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard) an
 
 Then click on Create App and Select a name
 set Website to "editor.jonx.dev"
+
 and Redirect Url to "editor.jonx.dev/callback"
 
 save the App
