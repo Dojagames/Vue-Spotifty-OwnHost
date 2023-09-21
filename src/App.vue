@@ -1272,7 +1272,7 @@ export default {
     transform: translateY(40px);
     width: 190px;
     height: 280px;
-    background-color: rgba(0, 0, 0, 0.199);
+    background-color: rgba(0, 0, 0, 0.801);
     z-index: 4;
     overflow-y: scroll;
   }
