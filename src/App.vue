@@ -391,7 +391,7 @@ export default {
         this.currentFavId = tempUri;
         this.currentFavType = _type;
         this.CallApi( 'GET', `https://api.spotify.com/v1/playlists/${tempUri}/tracks`, null, 'refreshTopSongList');
-      } else if(this.own_playlists.filter(e => e.name == _name)[0].name == _name && this.saveUri == false){
+      } else if(this.own_playlists.filter(e => e.name == _name)[0] > 0 && this.saveUri == false){
         this.currentFavId = this.own_playlists.filter(e => e.name == _name)[0].id;
         this.currentFavType = _type;
 
