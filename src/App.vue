@@ -172,7 +172,9 @@ export default {
         console.log(_data);
 
         if(this.currentSongId != _data.item.id){
-          this.contextUri = _data.context.uri;
+          if(_data.context != null){
+            this.contextUri = _data.context.uri;
+          } 
           this.currentSongId = _data.item.id;
           this.GetQue();
           this.GetDevices();
