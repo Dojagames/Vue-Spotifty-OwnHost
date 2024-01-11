@@ -18,4 +18,4 @@ save the App
 
 open the app and click on settings
 
-copy the client id and client secret and login with them on [editor.jonx.dev](editor.jonx.dev)
+copy the client id and client secret and login with them on [editor.jonx.dev](https://editor.jonx.dev)
