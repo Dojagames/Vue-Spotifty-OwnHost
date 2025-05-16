@@ -1,21 +1,35 @@
-# Vue-Spotify
+# 🎧 Vue Spotify OwnHost
 
-Spotify web player & playlist editor
+Ein selbst gehostetes Tool zum Bearbeiten von Spotify-Playlists –  
+weil man manchmal einfach *mehr will als Spotify ermöglicht*.
 
-## how to log in
+## 🧰 Features
 
-got to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard) and log in with your credentials
+- Bestehende Playlists filtern, sortieren, zusammenführen, neu ordnen  
+- Kein Hinzufügen, kein Erstellen – nur pures Editieren  
+- Der integrierte Player ist primär ein Gimmick (aber hey, er funktioniert!)  
+- Komplett clientseitig mit Vue 3 + Vite – kein Backend nötig  
+- Nutzt die offizielle Spotify API (mehr oder weniger freiwillig)
 
+## 📦 API-Karma & Realität
 
-Then click on Create App and Select a name
+**⚠️ Keine Garantie, dass deine Playlist nicht gelöscht wird.**  
+Die Spotify-API ist… sagen wir mal: „kreativ“.  
+Inzwischen gibt’s neue, stabilere Endpoints – aber aktuell fehlt die Zeit.  
+**Wird™ irgendwann™ gefixt™.**
 
-set Website to "https://editor.jonx.dev"
+## 🚀 Schnellstart
 
-and Redirect Url to "https://editor.jonx.dev/callback"
+1. Öffne [editor.jonx.dev](https://editor.jonx.dev)  
+2. Melde dich mit deinem Spotify-Account an  
+3. Genieße das Gefühl, deine Playlists endlich ernst nehmen zu können
 
+## 🛠️ Lokal entwickeln
 
-save the App
+```bash
+git clone https://github.com/Dojagames/Vue-Spotifty-OwnHost.git
+cd Vue-Spotifty-OwnHost
+npm install
+npm run dev
+```
 
-open the app and click on settings
-
-copy the client id and client secret and login with them on [editor.jonx.dev](https://editor.jonx.dev)
